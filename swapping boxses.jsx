@@ -80,7 +80,8 @@ export default function BoxGrid() {
   });
 
   return (
-    <div>
+    <div className="container">
+      <div className="row">
       <div className="title">
         <h1>اعمده متنوعه</h1>
       </div>
@@ -120,6 +121,7 @@ export default function BoxGrid() {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 }
